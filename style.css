@@ -1,0 +1,71 @@
+body{
+    background: url(https://avatars.mds.yandex.net/i?id=ecae26bec61ae54386f686dc653b79bf_l-4843317-images-thumbs&n=13);
+    background-size: 100%;
+    background-repeat: no-repeat
+    ;
+}
+
+.files{
+    text-align: center;
+    margin: auto;
+    backdrop-filter: blur(2.5px);
+    border-radius: 1vw;
+    background-color: rgba(255, 255, 255, 0.247);
+    max-width: 25%;
+    display: flex;
+    height:10vh;
+    margin-top:42.5vh;
+}
+.files:hover{
+    backdrop-filter: blur(7.5px);
+    background-color: rgba(255, 255, 255, 0.267);
+    transition: 0.15s;
+}
+.hy{
+    color:white;
+    text-decoration: none;
+    margin-top:3.9%;
+    margin-left: 2.5%;
+    cursor:pointer;
+    font-weight: 700;
+    height:20px;
+    font-size: 1.5vw;
+    font-family: "Comfortaa", sans-serif;
+}
+.hy:hover{
+    text-decoration: underline;
+    transition: 0.15s;
+}
+.download{
+    height:60%;
+    border-radius: 1vw;
+    margin:5px;
+    margin-top:1.5%;
+    padding:10px;
+    cursor:pointer;
+}
+.files a:active{
+    transform: scale(0.85, 0.85);
+}
+.download:hover{
+    transform: scale(1.15,1.15);
+    transition: 0.15s;
+}
+.files h3{
+    height:20%;
+    margin:0;
+    text-align: center;
+    margin:auto;
+    position: absolute;
+    margin-left:5vw;
+    margin-top:10.5%;
+    color:white
+}
+.download:active{
+    transform: scale(0.85, 0.85);
+}
+.hg{
+    height:80%;
+    padding:0;
+    margin-top:2.5%;
+}
